@@ -1,0 +1,10 @@
+2       ! selector, 1 si solo queremos una solución para calibrar, 2 si queremos el fractal.
+0.01    ! dt, tamaño de paso temporal.
+50      ! tf, tiempo de integración final.
+150     ! puntosT, cuántas puntos temporales el archivo de datos (no sirve para el fractal).
+1000    ! Nx, cuántos puntos tendrá la malla del fractal(no sirve para la solución única).
+0.01    ! Theta1Inicial, condición inicial para \theta_1 
+0.01    ! Theta2Inicial, condición inicial para \theta_2
+1       ! alpha, el cociente entre las masas.
+1       ! beta, el cociente entre las longitudes.
+1.0     ! w, una frecuencia simplificada.
